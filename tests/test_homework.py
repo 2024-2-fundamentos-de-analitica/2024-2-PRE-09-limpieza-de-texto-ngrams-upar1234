@@ -12,7 +12,7 @@ def test_01():
 
     clean_data.main(
         "files/input/input.txt",
-        "files/output/output.txt",
+        "files/output.txt",
     )
 
     if not os.path.exists("files/test.csv"):
